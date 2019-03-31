@@ -1,0 +1,78 @@
+@font-face{
+font-family: 'Alegreya_Sans';
+src: url('/Media/Alegreya_Sans/AlegreyaSans-Regular.ttf') format('truetype')
+font-weight: normal;
+font-style: normal;
+}
+@font-face{
+font-family: 'Alegreya_Sans';
+src: url('/Media/Alegreya_Sans/AlegreyaSans-Italic.ttf') format('truetype')
+font-weight: normal;
+font-style: italic;
+}
+@font-face{
+font-family: 'Alegreya_Sans';
+src: url('/Media/Alegreya_Sans/AlegreyaSans-Bold.ttf') format('truetype')
+font-weight: bold;
+font-style: normal;
+}
+@font-face{
+font-family: 'Alegreya_Sans';
+src: url('Media/Alegreya_Sans/AlegreyaSans-Medium.ttf') format('truetype')
+font-weight: bold;
+font-style: italic;
+}
+a{
+	display: block;
+	text-decoration: none;
+}
+body{
+	font-family: Alegreya_Sans;
+	margin: 0;
+	height: 100%;
+}
+/*@media (min-width: 900px){*/
+.menu_header{
+	text-align: center;
+	color: #000;
+	background-color: black;
+	height: 50px;
+}
+.menu_header .row{
+	height: 100%;
+}
+.background_header{
+	height: 500px;
+	background: url(/Media/back.jpeg); 
+	background-size: 100%;
+	background-attachment: scroll;
+}
+.logo{
+	height: 100px;
+	background-color: #FFF;
+	text-align: center;
+	font-size: 32px;
+	font-style: bold;
+}
+.menu_content{
+	font-size: 12px;
+	height: 50px;
+}
+.content{
+	margin-top: -150px;
+	background: #fff;
+	border-radius: 6px;
+	box-shadow: 0 0 0 3px rgba(255, 255, 255, .3);
+	height: 700px;
+}
+.box{
+	margin-right: auto;
+	margin-left: auto;
+	width: 60%;
+	padding: 4px;
+	background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+	border-radius: 6px;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
