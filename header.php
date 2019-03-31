@@ -7,8 +7,9 @@
 	<title>Module-1</title>
 </head>
 <body>
-<div class="container">
-		<div class="row justify-content-md-center">
+<div class="black_menu">
+<div class="container pt-2" style="width: 60%">
+		<div class="row text-center">
 			<div class="col"><a href="">About</a></div>
 			<div class="col"><a href="">Investors</a></div>
 			<div class="col"><a href="">Careers</a></div>
@@ -16,14 +17,18 @@
 			<div class="col"><a href="">EN/SE/NO/FI</a></div>
 		</div>
 	</div>
+</div>
 <div class="background_header">
+    <a href="index.php">
 		<div class="container pt-5">
 			<div class="row justify-content-md-center">
-				<div class="logo align-middle col-3 ">
-					<a href="index.php">Funny Island</a>
-				</div>
+                    <div class="logo align-middle col-3 pt-4">
+                        Funny Island
+                    </div>
+
 			</div>
 		</div>
+    </a>
 </div>
 
 </body>

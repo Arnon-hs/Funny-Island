@@ -10,23 +10,11 @@
 <?php include("header.php") ?>
 <div class="box">
 	<div class="content">
-		<div class="menu_content">
-			<div class="container pt-4">
-				<div class="row justify-content-md-center">
-					<div class="col"><a href="">Promotion</a></div>
-					<div class="col"><a href="">Tickets</a></div>
-					<div class="col"><a href="">Attractions</a></div>
-					<div class="col"><a href="">Financial Report</a></div>
-					<div class="col"><a href="">About Company</a></div>
-					<div class="col"><a href="">Careers</a></div>
-					<div class="col"><a href="">Events & News</a></div>
-				</div>
-			</div>
-		</div>
+        <?php include("menu.php") ?>
 		<hr>
+        Home page
 	</div>
 </div>
-
 <?php include("footer.php") ?>
 </body>
 </html>

@@ -7,10 +7,16 @@
 	<title>Module-1</title>
 </head>
 <body>
-footer
 
-<div class="container">
-	<img src="Media/Footer-2x.png" width="100%">
+
+<div class="footer_background">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col text-center pt-5">
+				<p style="color: white"> &copy;2016, Funny Island Company. Attraction photos from Unsplash. Europe map from public domain.</p>
+			</div>
+		</div>
+	</div>
 </div>
 
 
