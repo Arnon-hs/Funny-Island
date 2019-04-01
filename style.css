@@ -69,22 +69,28 @@ body{
 	height: 50px;
 }
 .content{
-	margin-top: -150px;
+	margin-top: -250px;
 	background: #fff;
-	border-radius: 6px;
-	box-shadow: 0 0 0 3px rgba(255, 255, 255, .3);
-	height: 770px;
-}
-.box{
 	margin-right: auto;
 	margin-left: auto;
 	width: 60%;
-	padding: 4px;
-	background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
-	border-radius: 6px;
-    -moz-box-sizing:border-box;
-    -webkit-box-sizing:border-box;
-    box-sizing:border-box;
+	border: solid 4px;
+	animation: rainbow 5s linear infinite;
+}
+/*#content_main{*/
+/*	animation: rainbow 5s linear infinite;*/
+/*}*/
+@keyframes rainbow {
+	0% { border-color: #fe543a }
+	10% { border-color: #ff8945 }
+	20% { border-color: #ffc751 }
+	30% { border-color: #a9cf4f }
+	40% { border-color: #5fda94 }
+	50% { border-color: #5fda94 }
+	60% { border-color: #30a4ff }
+	70% { border-color: #bd89fe }
+	80% { border-color: #fe84fe }
+	100% { border-color: #ff5d5b }
 }
 .footer_background{
 	text-align: center;
@@ -102,5 +108,10 @@ body{
 }
 .guest_ticket{
 	height: 100px;
+}
+.promote_photo{
+	width: 100%;
+}
+.promote{
 	width: 100%;
 }

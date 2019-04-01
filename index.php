@@ -8,13 +8,11 @@
 </head>
 <body>
 <?php include("header.php") ?>
-<div class="box">
-	<div class="content">
+	<div class="content" id="content_main">
         <?php include("menu.php") ?>
 		<hr>
         Home page
 	</div>
-</div>
 <?php include("footer.php") ?>
 </body>
 </html>

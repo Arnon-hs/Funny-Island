@@ -25,7 +25,6 @@
                     <div class="logo align-middle col-3 pt-4">
                         Funny Island
                     </div>
-
 			</div>
 		</div>
     </a>

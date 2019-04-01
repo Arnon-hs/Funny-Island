@@ -95,7 +95,7 @@
                 </div>
             </div>
         </div>
-        <div class="container mt-5">
+        <div class="container mt-5 pb-2">
             <button type="button" class="btn btn-secondary btn-lg btn-block"> Checkout and Confirm the tickets </button>
         </div>
     </div>

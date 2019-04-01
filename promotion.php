@@ -9,11 +9,14 @@
 <body>
 <?php include("header.php") ?>
 <div class="box">
-    <div class="content container pr-1 pl-1">
+    <div class="content container">
         <?php include("menu.php") ?>
         <hr>
         <div class="container">
              <p class="name_menu"><img src="/Media/promote-16x16.png"> 2 adults, 1 kid free promotion during December. </p>
+        </div>
+        <div class="container promote">
+            <img class="promote_photo" src="/Media/photo-1460788150444-d9dc07fa9dba.jpg">
         </div>
     </div>
 </div>
